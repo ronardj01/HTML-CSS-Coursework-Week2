@@ -45,7 +45,14 @@ header img {
     color: #444242;
 }
 
-
+/*Estilo de la seccion introduccion*/
+.introduccion {
+    background-image: url(/home/ronar/Documents/Repositorios/HTML-CSS-Coursework-Week2/img/first-background.jpg);
+    background-size: cover;
+    color: white;
+    padding: 250px;
+    text-align: center;
+}
 
 
 
