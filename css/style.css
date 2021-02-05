@@ -50,6 +50,30 @@ header img {
     background-image: url(/home/ronar/Documents/Repositorios/HTML-CSS-Coursework-Week2/img/first-background.jpg);
     background-size: cover;
     color: white;
-    padding: 250px;
+    padding: 200px;
     text-align: center;
+    margin: 5px 25px;
+}
+
+.introduccion p:first-of-type {
+    font-size: 3.2em;
+    font-weight: lighter;
+    margin:5px;
+}
+
+.introduccion p:nth-of-type(2) {
+    font-size: 1.7em;
+    font-weight: lighter;
+}
+
+.introduccion button {
+    background: #ff6347;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    padding: 12px 25px;
+}
+
+.introduccion button:hover {
+    color: #444242;
 }
