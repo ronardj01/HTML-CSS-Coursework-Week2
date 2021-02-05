@@ -16,7 +16,7 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
- /*Estilos del encabezado*/
+ /*Estilos del header*/
 header {
     display:flex;
     margin: 7px 75px;
@@ -53,7 +53,3 @@ header img {
     padding: 250px;
     text-align: center;
 }
-
-
-
-
