@@ -16,4 +16,37 @@ body {
  * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
  */
 
+ /*Estilos del encabezado*/
+header {
+    display:flex;
+    margin: 7px 75px;
+    justify-content: space-between;
+}
+ 
+header img {
+    width: 30px;
+}
+
+.navegacion ul li {
+    display: inline;
+}
+
+.navegacion a {
+    text-decoration: none;
+    margin: 5px 10px;
+    color: #a09e9e;
+}
+
+.navegacion li a:hover, #karma:hover {
+    color: #ff6347;
+}
+
+#karma {
+    color: #444242;
+}
+
+
+
+
+
 
