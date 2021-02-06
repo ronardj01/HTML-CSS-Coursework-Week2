@@ -50,7 +50,7 @@ header img {
     background-image: url(/home/ronar/Documents/Repositorios/HTML-CSS-Coursework-Week2/img/first-background.jpg);
     background-size: cover;
     color: white;
-    padding: 200px;
+    padding:275px 200px;
     text-align: center;
     margin: 5px 25px;
 }
@@ -99,6 +99,24 @@ header img {
 
 .icons-container img {
   width: 130px;
+}
+
+/*footer*/
+
+footer {
+    font-size: smaller;
+    border-top: 0.2px solid #f3f2f2;
+    text-align: center;
+    margin: 5px 280px;
+}
+
+footer img {
+    width: 20px;
+}
+
+.social-container {
+    display: flex;
+
 }
 
 
