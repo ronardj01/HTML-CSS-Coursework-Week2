@@ -47,7 +47,7 @@ header img {
 
 /*Estilo de la seccion introduccion*/
 .introduccion {
-    background-image: url(/home/ronar/Documents/Repositorios/HTML-CSS-Coursework-Week2/img/first-background.jpg);
+    background-image: url("../img/first-background.jpg");
     background-size: cover;
     color: white;
     padding:275px 200px;
@@ -105,7 +105,7 @@ header img {
 
 footer {
     font-size: smaller;
-    border-top: 0.2px solid #f3f2f2;
+    border-top: 1px solid #eeeded;
     text-align: center;
     margin: 5px 280px;
 }
@@ -121,6 +121,10 @@ footer img {
 
 footer a{
     margin: 5px 20px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 180px;
 }
+
 
 
