@@ -33,7 +33,7 @@ header img {
 
 .navegacion a {
     text-decoration: none;
-    margin: 5px 10px;
+    margin: 5px 25px;
     color: #a09e9e;
 }
 
@@ -64,14 +64,16 @@ header img {
 .introduccion p:nth-of-type(2) {
     font-size: 3em;
     font-weight: lighter;
+    margin: 20px;
 }
 
 .introduccion button {
     background: #ff6347;
     color: #ffffff;
     border: none;
-    border-radius: 3px;
-    padding: 12px 25px;
+    border-radius: 8px;
+    padding: 20px 55px;
+    font-size: x-large;
 }
 
 .introduccion button:hover {
@@ -94,7 +96,7 @@ header img {
     text-align: center;
     font-size: 1.5em;
     font-weight: lighter;
-    margin: 30px 280px;
+    margin: 30px 200px;
 }
 
 .icons-container img {
@@ -107,7 +109,7 @@ footer {
     font-size: smaller;
     border-top: 1px solid #e6e6e6;
     text-align: center;
-    margin: 5px 280px;
+    margin: 0px 280px;
 }
 
 footer img {
@@ -129,5 +131,7 @@ footer img {
     margin: 5px 20px
 }
 
-
+footer p:last-of-type {
+    color: #b4b4b4;
+}
 
