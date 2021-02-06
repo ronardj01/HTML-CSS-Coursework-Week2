@@ -116,7 +116,11 @@ footer img {
 
 .social-container {
     display: flex;
+    justify-content: center;
+}
 
+footer a{
+    margin: 5px 20px;
 }
 
 
