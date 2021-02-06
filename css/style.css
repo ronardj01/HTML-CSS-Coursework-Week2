@@ -19,7 +19,7 @@ body {
  /*Estilos del header*/
 header {
     display:flex;
-    margin: 7px 75px;
+    margin: 7px 120px;
     justify-content: space-between;
 }
  
@@ -48,21 +48,21 @@ header img {
 /*Estilo de la seccion introduccion*/
 .introduccion {
     background-image: url("../img/first-background.jpg");
-    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
-    padding:275px 200px;
+    padding:200px 250px;
     text-align: center;
     margin: 5px 25px;
 }
 
 .introduccion p:first-of-type {
-    font-size: 3.2em;
+    font-size: 5.5em;
     font-weight: lighter;
     margin:5px;
 }
 
 .introduccion p:nth-of-type(2) {
-    font-size: 1.7em;
+    font-size: 3em;
     font-weight: lighter;
 }
 
@@ -105,7 +105,7 @@ header img {
 
 footer {
     font-size: smaller;
-    border-top: 1px solid #eeeded;
+    border-top: 1px solid #e6e6e6;
     text-align: center;
     margin: 5px 280px;
 }
@@ -119,11 +119,14 @@ footer img {
     justify-content: center;
 }
 
-footer a{
-    margin: 5px 20px;
-    border: 1px solid gray;
-    padding: 5px;
-    border-radius: 180px;
+.circulo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: transparent;
+    padding: 1%;
+    border: 1px solid #e6e6e6;
+    margin: 5px 20px
 }
 
 
