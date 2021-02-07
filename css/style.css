@@ -27,6 +27,10 @@ header img {
     width: 30px;
 }
 
+header label img {
+    display: none;
+}
+
 .navegacion ul li {
     display: inline;
 }
@@ -142,7 +146,7 @@ footer p:last-of-type {
 }
 
 /*Estilo @media */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 960px) {
  .icons-container {
         flex-direction: column;
         margin: 0;
@@ -166,16 +170,16 @@ footer p:last-of-type {
      text-align: center;
      border: 1px solid #ff6347;
      margin: 0;
-     width: 200%;
      background: #deb887;
      border-radius: 5px;
+     padding: 2px 5px;
  }
   header {
       margin: 5px 15px;
   }
   header label img {
-      overflow: hidden;
-      padding-top: 12px;
+    display: block;
+    padding-top: 12px;
   }
 }
 
