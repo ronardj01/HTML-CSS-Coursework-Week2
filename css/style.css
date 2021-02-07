@@ -139,9 +139,12 @@ footer p:last-of-type {
 
 /*Estilo @media */
 @media screen and (max-width: 760px) {
-    .icons-container {
+ .icons-container {
         flex-direction: column;
         margin: 0;
+ }
+ .icons-container p {
+        margin-bottom: 3em;
  }
 
  footer {
