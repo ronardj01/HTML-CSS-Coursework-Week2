@@ -45,6 +45,10 @@ header img {
     color: #444242;
 }
 
+.navegacion input {
+    display: none;
+}
+
 /*Estilo de la seccion introduccion*/
 .introduccion {
     background-image: url("../img/first-background.jpg");
