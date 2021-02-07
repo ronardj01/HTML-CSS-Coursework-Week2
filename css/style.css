@@ -55,7 +55,7 @@ header img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .introduccion p:first-of-type {
@@ -103,9 +103,8 @@ header img {
 }
 
 .icons-container img {
-  width: 130px;
+  width: 6em;
 }
-
 /*footer*/
 
 footer {
@@ -136,5 +135,17 @@ footer img {
 
 footer p:last-of-type {
     color: #b4b4b4;
+}
+
+/*Estilo @media */
+@media screen and (max-width: 760px) {
+    .icons-container {
+        flex-direction: column;
+        margin: 0;
+ }
+
+ footer {
+     margin: 0;
+ }
 }
 
