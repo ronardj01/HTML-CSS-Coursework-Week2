@@ -150,5 +150,12 @@ footer p:last-of-type {
  footer {
      margin: 0;
  }
+ .navegacion ul {
+     display: none;
+ }
+ input:checked ~ ul {
+     display: block;
+ }
 }
+
 
