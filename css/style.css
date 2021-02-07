@@ -48,11 +48,14 @@ header img {
 /*Estilo de la seccion introduccion*/
 .introduccion {
     background-image: url("../img/first-background.jpg");
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
     color: white;
-    padding:200px 250px;
-    text-align: center;
-    margin: 5px 25px;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .introduccion p:first-of-type {
