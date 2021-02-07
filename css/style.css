@@ -160,6 +160,23 @@ footer p:last-of-type {
  input:checked ~ ul {
      display: block;
  }
+
+ .navegacion a{
+     display: block;
+     text-align: center;
+     border: 1px solid #ff6347;
+     margin: 0;
+     width: 200%;
+     background: #deb887;
+     border-radius: 5px;
+ }
+  header {
+      margin: 5px 15px;
+  }
+  header label img {
+      overflow: hidden;
+      padding-top: 12px;
+  }
 }
 
 
